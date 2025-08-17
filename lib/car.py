@@ -1,4 +1,6 @@
-from vehicle import Vehicle
+from vehicle import Vehicle  # Import the parent class
 
 class Car(Vehicle):
-    pass
+    def go(self):
+        # Override the go() method for Car
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
